@@ -6,7 +6,10 @@ To properly test our hypothesis, it was essential to ensure that the outcomes ar
 We then created multiple versions of each dataset. Specifically, we generated four distinct versions of each dataset: the original dataset, a noisy version created by downsampling the images with a factor of 0.25 using MATLAB bicubic interpolation, an ESRGAN-enhanced version, and a PSNR-oriented-enhanced version. In total, we produced 12 different datasets. We employed the three classification network architectures mentioned earlier on each of the 12 datasets, resulting in 36 distinct architecture-dataset-resolution combinations.
 
 Results were as follows:
+
 <img width="688" alt="image" src="https://github.com/hagarshalabyy/Testing-Impact-of-ESRGAN-on-Image-Classification/assets/83888834/beec2801-e72a-4c99-99bb-f76ff5f3dde1">
+
+
 ![image](https://github.com/hagarshalabyy/Testing-Impact-of-ESRGAN-on-Image-Classification/assets/83888834/0f05a8ed-760e-43b6-805b-abf46a7734fd)
 
 
